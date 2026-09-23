@@ -1,0 +1,22 @@
+# ARN Inventory implementation checklist
+
+- App identity, header, developer and loading assets
+- PWA manifest, service worker, safe-area header, GitHub Pages relative paths
+- 7-second splash, white background, rolling box, By + ARN Solutions
+- Login/register local test flow, forgot-password/Google provider entry points
+- Multi-account local isolation and demo license state
+- Stok / History / Ringkasan navigation
+- Master LCD/Battery/TG preload
+- Opening stock preload from supplied movement file
+- Case-insensitive search by part/code/category/model compatibility
+- Stock status Normal >5, Menipis 1-5, Kosong 0
+- Stock In/Out, date picker, quantity -1+, reasons, service/customer fields
+- Add Part from History and direct part creation
+- Add category, deactivate user categories
+- Compatibility display and model search
+- Dynamic summary derived from transaction state
+- Filter by category/status
+- Part detail/history
+- CSV backup/export
+- Delete countdown and edit transaction UI are reserved for the next interaction layer; the data model supports transaction mutation
+- Supabase SQL foundation for accounts, profiles, parts, compatibility, transactions and licensing
